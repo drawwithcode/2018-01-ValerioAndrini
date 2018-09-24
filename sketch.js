@@ -34,6 +34,7 @@ function draw() {
 	ellipseMode(CENTER);
 	ellipse(250, 270, 90, 90);
 	fill(255,255,255);
+	//Mouth
 	arc(250, 285, 40, 25, 360, 180);
 
 	//Eyes
@@ -41,7 +42,6 @@ function draw() {
 	fill(255, 255, 255);
 
 	ellipse(265, 260, 10);
-	//ellipse(235, 260, 10);
 	line(230, 260, 240, 260);
 
 	//Glasses
@@ -57,15 +57,33 @@ function draw() {
 
 
 	//Arms
+	fill(255,255,255);
+	arc(200, 355, 30, 40, 90, 270);
+	arc(300, 355, 30, 40, 270, 90);
+	line(185, 355, 165, 330);
+	line(165, 330, 145, 300);
+	ellipse(165, 330, 20);
+	fill(255, 255, 255, 0);
+	arc(146, 286, 30, 30, 360, 180);
+
+	line(315, 355, 335, 330);
+	line(335, 330, 355, 300);
+	fill(255, 255, 255);
+	ellipse(335, 330, 20);
+	fill(255, 255, 255, 0);
+	arc(361, 286, 30, 30, 360, 180);
+
+
+
 	fill(0, 160, 0);
 	ellipseMode(CORNER);
-	ellipse(300, 340, 30, 120);
+	//ellipse(300, 340, 30, 120);
 
 
 	translate(210, 335);
 	rotate(angle);
 	ellipseMode(CORNER);
-	ellipse(0, 0, 30, 120);
+	//ellipse(0, 0, 30, 120);
 
 
 
