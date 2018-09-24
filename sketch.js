@@ -40,7 +40,7 @@ function draw() {
 	fill(77, 57, 69);
 	//Mouth
 	strokeWeight(1);
-	arc(250, 287, 40, 25, 360, 180);
+	arc(250, 287, 37, 25, 360, 180);
 
 	//Eyes
 	strokeWeight(0);
